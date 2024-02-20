@@ -1,0 +1,62 @@
+body {
+  font-family: "Merriweather", serif;
+}
+
+img {
+  width: 100%;
+}
+.logo {
+  width: 120px;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.social li i {
+  color: rgb(212, 212, 212);
+  margin: 4px;
+}
+
+.social li i:hover {
+  color: #1e3050;
+}
+
+.adress {
+  display: flex;
+}
+.first-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.adress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adress p { 
+  color: rgb(134, 133, 133);
+  font-size: 10px;
+}
+
+.adress i {
+  margin: 5px 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+.menu li {
+  margin-left: 15px;
+}
+.first-header {
+  width: 95%;
+  margin: auto;
+}
+
+.first-header:last-child{
+    margin-top: 25px;
+}
