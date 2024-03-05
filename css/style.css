@@ -1,5 +1,5 @@
 body {
-  font-family: "Merriweather";
+  font-family: "Poppins", sans-serif;
 }
 
 img {
@@ -35,7 +35,9 @@ img {
   justify-content: center;
   align-items: center;
 }
-
+.center{
+  text-align: center;
+}
 .adress p {
   color: rgb(134, 133, 133);
   font-size: 10px;
@@ -97,9 +99,9 @@ h1,h2,h3,h4,h5,h6,p,ul,li,a{
 .risks{
     margin: 50px 0;
 }
-.red{
-    color: red;
-    font-weight: 800;
+.blue{
+    color:#1e3050;
+    font-weight: 900;
 }
 .risk-div{
     display: flex;
@@ -119,4 +121,96 @@ h1,h2,h3,h4,h5,h6,p,ul,li,a{
 }
 h4{
     font-size: 18px;
+}
+
+.risk-text ul li p b,
+.complications ul li p b{
+  font-weight: 900;
+}
+
+
+/* risk */
+.risk-factors h2{
+  color: #015081;
+  text-align: center;
+  margin: 40px auto;
+}
+.risk-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  color: #015081;
+  font-weight: 800;
+  text-align: center;
+  gap: 20px;
+
+}
+.risk-content p{
+  margin: 0;
+}
+.risk-content img{
+  width: 200px;
+}
+/* banner */
+.banner{
+  margin: 60px auto;
+  position: relative;
+}
+
+.banner div{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 45%;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.banner div p span{
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 30px;
+
+}  
+.banner div p{
+  margin-bottom: 40px;
+
+}
+
+.banner div a{
+  background-color: white;
+  color: #045284;
+  font-weight: 900;
+  text-transform: uppercase;
+  border-radius: 12px;
+  padding: 12px 25px;
+  font-size: 30px;
+ 
+}
+
+
+/* banner2 */
+
+.banner2{
+  margin: 60px auto;
+  position: relative;
+}
+
+.banner2 div{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 45%;
+  color: #005280;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: right;
+}
+.banner2 div p:nth-child(1){
+  font-weight: 800;
+  font-size: 38px;
+  text-transform: uppercase;
 }
