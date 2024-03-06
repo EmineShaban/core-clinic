@@ -35,7 +35,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-.center{
+.center {
   text-align: center;
 }
 .adress p {
@@ -86,80 +86,86 @@ h1 {
   color: #6fc8c4;
 }
 
-h1,h2,h3,h4,h5,h6,p,ul,li,a{
-    letter-spacing: 1px;
-    line-height: 1.4;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+  letter-spacing: 1px;
+  line-height: 1.4;
 }
-.text{
-    margin: auto;
+.text {
+  margin: auto;
 }
-h2{
+h2 {
   font-size: 27px;
 }
 /* risks */
 
-.risks{
-    margin: 50px 0;
+.risks {
+  margin: 50px 0;
 }
-.blue{
-    color: #015081;
-    font-weight: 900;
-    font-size: 27px;
+.blue {
+  color: #015081;
+  font-weight: 900;
+  font-size: 27px;
 }
-.risk-div{
-    display: flex;
-    flex-direction: row;
+.risk-div {
+  display: flex;
+  flex-direction: row;
 }
-.znak{
-    width: 220px;
-    margin: auto;
+.znak {
+  width: 220px;
+  margin: auto;
 }
 
-.risk-text ul li{
-    margin: 15px auto;
+.risk-text ul li {
+  margin: 15px auto;
 }
-.text ul li{
-    margin: 15px auto;
-
+.text ul li {
+  margin: 15px auto;
 }
-h4{
-    font-size: 18px;
+h4 {
+  font-size: 18px;
 }
 
 .risk-text ul li p b,
-.complications ul li p b{
+.complications ul li p b {
   font-weight: 900;
 }
 
-
 /* risk */
-.risk-factors h2{
+.risk-factors h2 {
   color: #015081;
   text-align: center;
   margin: 40px auto;
 }
-.risk-grid{
+.risk-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   color: #015081;
   font-weight: 800;
   text-align: center;
   gap: 20px;
-
 }
-.risk-content p{
+.risk-content p {
   margin: 0;
 }
-.risk-content img{
+.risk-content img {
   width: 200px;
 }
 /* banner */
-.banner{
+.banner {
   margin: 60px auto;
   position: relative;
 }
 
-.banner div{
+.banner div {
   position: absolute;
   top: 50%;
   left: 25%;
@@ -171,18 +177,16 @@ h4{
   font-weight: 400;
 }
 
-.banner div p span{
+.banner div p span {
   font-weight: 900;
   text-transform: uppercase;
   font-size: 30px;
-
-}  
-.banner div p{
+}
+.banner div p {
   margin-bottom: 40px;
-
 }
 
-.banner div a{
+.banner div a {
   background-color: white;
   color: #045284;
   font-weight: 900;
@@ -190,18 +194,16 @@ h4{
   border-radius: 12px;
   padding: 12px 25px;
   font-size: 30px;
- 
 }
-
 
 /* banner2 */
 
-.banner2{
+.banner2 {
   margin: 60px auto;
   position: relative;
 }
 
-.banner2 div{
+.banner2 div {
   position: absolute;
   top: 50%;
   left: 80%;
@@ -212,37 +214,40 @@ h4{
   font-weight: 500;
   text-align: right;
 }
-.banner2 div p:nth-child(1){
+.banner2 div p:nth-child(1) {
   font-weight: 800;
   font-size: 38px;
   text-transform: uppercase;
 }
 
-
 /* why-OnycoFix */
 
-.why-OnycoFix{
-  background: rgb(181,213,231);
-  background: linear-gradient(351deg, rgba(181,213,231,1) 0%, rgba(0,82,128,1) 100%);
+.why-OnycoFix {
+  background: rgb(181, 213, 231);
+  background: linear-gradient(
+    351deg,
+    rgba(181, 213, 231, 1) 0%,
+    rgba(0, 82, 128, 1) 100%
+  );
   padding: 35px 0;
 }
 
-.why-OnycoFix h2{
+.why-OnycoFix h2 {
   color: white;
 }
 
-.why-OnycoFix div{
+.why-OnycoFix div {
   width: 50%;
   margin: auto;
   color: white;
 }
-.why-OnycoFix ul li{
+.why-OnycoFix ul li {
   margin: 10px 0;
 }
 
 /* why-OnycoFix2 */
 
-.bullets{
+.bullets {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
@@ -251,47 +256,149 @@ h4{
   margin-bottom: 25px;
 }
 
-.why-OnycoFix2{
+.why-OnycoFix2 {
   color: #005280;
-  text-align: center; 
+  text-align: center;
   margin-bottom: 0;
 }
-.why-OnycoFix2 h2 span{
+.why-OnycoFix2 h2 span {
   font-size: 20px;
 }
 
-.bullets li p{
+.bullets li p {
   margin: 0;
   font-size: 18px;
   font-weight: 900;
   margin-top: -10px;
 }
-.bullets li img{
+.bullets li img {
   width: 200px;
   margin: auto;
 }
 
-
-
 /* banner3 */
 
-.banner3{
+.banner3 {
   margin: 60px auto;
   position: relative;
 }
 
-.banner3 p{
+.banner3 p {
   position: absolute;
   top: 50%;
   left: 30%;
   transform: translate(-50%, -50%);
-  width: 45%;
+  width: 50%;
   color: white;
   font-size: 22px;
-  font-weight: 400; 
+  font-weight: 400;
   line-height: 1.3;
 }
-.banner3 p span{
+.banner3 p span {
   font-weight: 700;
   font-size: 24px;
+}
+
+.ingredient-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ingr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ingr-p {
+  margin-right: 0;
+  color: #095683;
+  font-size: 20px;
+  border-bottom: #095683 2px dashed;
+  border-left: #095683 2px dashed;
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-weight: 600;
+  padding-right: 30px;
+}
+.bottom {
+  margin-bottom: -25px;
+}
+.left {
+  margin-left: -30px;
+}
+.ingredient-width {
+  width: 75%;
+  margin: 40px auto;
+  padding: 0px;
+}
+
+.img-ingr {
+  width: 180px;
+  /* margin-top: -100px; */
+}
+
+.ingr:nth-child(2) {
+  margin-left: -50px;
+}
+
+.img-ingr2 {
+  width: 230px;
+}
+
+.ingr2 {
+  display: flex;
+  align-items: center;
+}
+.ingredient-grid2 {
+  display: grid;
+  grid-template-areas: "european echinacea" "european tea";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-top: -70px;
+}
+
+#tea {
+  grid-area: tea;
+  margin-top: -120px;
+
+}
+#european {
+  grid-area: european;
+  margin-left: -20px;
+  margin-top: -50px;
+}
+#echinacea {
+  grid-area: echinacea;
+  margin-left: -50px;
+}
+
+#echinacea p,
+#european p {
+  border: none;
+  border-right: #095683 2px dashed;
+  border-bottom: #095683 2px dashed;
+  padding: 0;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  text-align: right;
+}
+
+#echinacea p {
+  margin-left: -100px;
+}
+
+#echinacea .img-ingr2 {
+  width: 300px;
+}
+
+#european .img-ingr2 {
+  width: 330px;
+  margin-left: -60px;
+}
+#european p {
+  padding-left: 0px;
+  margin-left: -50px;
+  margin-top: -25px;
 }
