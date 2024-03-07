@@ -698,6 +698,7 @@ button {
   border-radius: 10px;
   margin-bottom: 20px;
   cursor: pointer;
+  margin-top: 15px;
 }
 
 .sw-div {
@@ -772,7 +773,16 @@ input[type="radio"] {
   margin: 0;
   font-size: 14px;
 }
-
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}   
+form input{
+  margin: 5px 0;
+  padding: 5px;
+}
+ 
 /* footer */
 footer div.links {
   text-align: center;
@@ -1248,5 +1258,10 @@ footer p.disclaimer {
 }
 .faq-div{
   width: 80%;
+}
+.white img {
+    width: 150px; 
+    margin-top: -20px;
+    padding: 10px;
 }
 }
