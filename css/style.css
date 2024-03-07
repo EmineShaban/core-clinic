@@ -55,6 +55,11 @@ img {
   margin: auto;
   margin-left: 15px;
 }
+
+.menu li a {
+  color: black;
+}
+
 .first-header {
   width: 95%;
   margin: auto;
@@ -617,47 +622,41 @@ h4 {
   padding: 25px 0;
 }
 
-
-
 /* commentrs */
-.comm-flex{
+.comm-flex {
   display: flex;
   flex-direction: row;
 }
-.ava{
+.ava {
   width: 100px;
 }
-.comm-content p:nth-child(1){
+.comm-content p:nth-child(1) {
   font-size: 20px;
   margin: 0;
   margin-left: 10px;
   font-weight: 700;
 }
 
-.comm-content{
+.comm-content {
   margin: auto 0;
 }
-.comm p{
+.comm p {
   margin: 0;
 }
 
-
 /* order */
 
-
-.order{
+.order {
   display: grid;
   grid-template-columns: 700px 1fr;
   gap: 50px;
 }
 
-.sw{
+.sw {
   /* width: 70%; */
   margin: auto;
   margin-bottom: 25px;
 }
-
-
 
 /* label{
   display: flex;
@@ -665,28 +664,28 @@ h4 {
   justify-content: space-between;
 } */
 
-.radio{
+.radio {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.radio-div{
+.radio-div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.free{
+.free {
   text-align: center;
   border: 2px dashed #005280;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 800;
-  padding: 7px 0; 
+  padding: 7px 0;
 }
 
-button{
+button {
   background-color: #ee5208;
   color: white;
   border: none;
@@ -698,32 +697,438 @@ button{
   cursor: pointer;
 }
 
-.sw-div{
+.sw-div {
   margin: auto 0;
 }
 
-.order-div h3{
-  font-size: 23px ;
+.order-div h3 {
+  font-size: 23px;
   text-align: center;
   color: #005280;
   font-weight: 800;
+  margin-bottom: 0;
 }
 
-.order-radio{
-  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
- }
+.order-radio {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
 
-.radio{
+.radio {
   padding: 10px;
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
-
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
 }
 
-.yellow{
+.yellow {
   background-color: #f5c14f;
+}
+
+label p {
+  margin-left: 5px;
+}
+
+label p span {
+  color: #f26522;
+  font-weight: 700;
+}
+
+input[type="radio"] {
+  accent-color: red;
+}
+.order {
+  margin: 50px auto;
+}
+.order-stars {
+  display: flex;
+  align-items: center;
+}
+
+.order-stars img {
+  width: 100px;
+}
+
+.order-stars p {
+  margin: 0;
+}
+
+.order-bullets {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px auto;
+}
+.order-content {
+  margin: auto;
+  text-align: center;
+}
+.order-content img {
+  width: 80px;
+}
+
+.order-content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* footer */
+footer div.links {
+  text-align: center;
+  margin: 15px;
+}
+
+footer a {
+  margin: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer p.disclaimer {
+  width: 70%;
+  margin: 10px auto;
+  letter-spacing: 0;
+  line-height: 1;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 2000px) {
+  .container {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .review-width {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .img {
+    width: 50%;
+    margin: auto;
+  }
+  .grad {
+    padding: 0 20px;
+    min-height: 445px;
+  }
+  .order {
+    display: grid;
+    grid-template-columns: 650px 1fr;
+  }
+
+  .banner,
+  .banner3,
+  .banner4,
+  .how-to-use {
+    width: 100%;
+  }
+
+  .why-OnycoFix div {
+    width: 80%;
+  }
+  .bullets {
+    width: 75%;
+  }
+  .review-width {
+    width: 90%;
+    gap: 30px;
+  }
+  .grad {
+    padding: 0 10px;
+    min-height: 473px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+  .banner,
+  .banner3,
+  .banner4,
+  .how-to-use {
+    width: 100%;
+  }
+  .review-width {
+    padding: 20px 0;
+  }
+  .grad {
+    min-height: 502px;
+  }
+  .order {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    gap: 15px;
+  }
+  .risk-content img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 994px) {
+  .img {
+    width: 75%;
+    margin: auto;
+  }
+  .znak {
+    display: none;
+  }
+  .banner div {
+    font-size: 20px;
+  }
+
+  .banner div a {
+    font-size: 25px;
+  }
+  .banner div p span {
+    font-size: 26px;
+  }
+  .banner2 div {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    font-size: 16px;
+  }
+
+  .banner2 div p:nth-child(1) {
+    font-size: 30px;
+  }
+  .why-OnycoFix div {
+    width: 90%;
+  }
+  .bullets {
+    width: 95%;
+  }
+
+  .banner3 p {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 54%;
+  }
+  .ingredient-width {
+    width: 90%;
+    margin: 20px auto;
+    padding: 0px;
+  }
+  .ingr-p {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+
+  .banner4 p span {
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .banner4 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    color: #005280;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0;
+  }
+  .how-to-use div {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    color: #005280;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+
+  .how-to-use div h4 {
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .how-to-use div ul li {
+    margin: 3px 0;
+    list-style-type: decimal;
+  }
+  .review-width {
+    display: block;
+  }
+  .grad {
+    min-height: auto;
+  }
+  .content {
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+  }
+  .review-div {
+    margin-bottom: 50px;
+  }
+
+  .order {
+    display: block;
+  }
+  .payment-methods {
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+  .risk-content img {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .risk-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .bullets li img {
+    width: 120px;
+    margin: auto;
+  }
+  .ingr:nth-child(2) {
+    margin-left: -5px;
+  }
+  .banner4 p {
+    font-size: 14px;
+  }
+  .banner4 p span {
+    font-size: 20px;
+  }
+  .how-to-use div {
+    width: 72%;
+    margin: auto;
+    position: relative;
+    transform: none; 
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+
+  .how-to-use div h4 {
+    text-align: center;
+  }
+
+
+.desktop{
+  display: none;
+}
+
+.banner div p {
+  margin-bottom: 30px;
+}
+.banner div {
+  font-size: 14px;
+}
+
+.banner div a {
+  font-size: 16px;
+}
+
+.review-width {
+  width: 70%; 
+}
+.content { 
+  width: 90%;
+}
+.faq h2{
+  margin-bottom: 0;
+}
+footer p.disclaimer {
+  width: 90%;
+}
+
+.product {
+display: block;
+}
+.first-header:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo {
+  width: 120px;
+  display: block;
+  margin: 10px auto;
+}
+.img {
+  width: 40%;
+  margin: auto;
+}
+.blue {
+  color: #015081;
+  font-weight: 900;
+  font-size: 22px;
+}
+.banner div p {
+  margin-bottom: 20px;
+}
+.banner div p span {
+  font-size: 22px;
+}
+
+.name {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 24px;
+}
+.comm-content p:nth-child(1) {
+  font-size: 18px;
+}
+.img-ingr {
+  width: 150px;
+}
+
+#european .img-ingr2 {
+  width: 250px;
+  margin-left: -40px;
+}
+#echinacea p {
+  margin-left: -60px;
+}
+
+#echinacea .img-ingr2 {
+  width: 200px;
+}
+
+#tea { 
+  margin-top: -80px;
+}
+.review-img {
+  width: 120px;
+  margin: auto;
+  margin-bottom: -30px;
+}
+
+
 
 }
 
-label p{
-  margin-left: 5px;
+
+
+@media screen and (max-width: 414px) {
+
+
+
 }
