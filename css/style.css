@@ -679,5 +679,32 @@ h4 {
 
 .free{
   text-align: center;
-  border: 1px dashed #005280;
+  border: 2px dashed #005280;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 7px 0; 
+}
+
+button{
+  background-color: #ee5208;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sw-div{
+  margin: auto 0;
+}
+
+.order-div h3{
+  font-size: 23px ;
+  text-align: center;
+  color: #005280;
+  font-weight: 800;
 }
