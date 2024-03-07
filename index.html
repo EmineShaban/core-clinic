@@ -14,7 +14,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://kit.fontawesome.com/470297acee.js" crossorigin="anonymous"></script>
+
     <!-- metrica!!!!!!! -->
 
 </head>
@@ -608,7 +611,117 @@
             <hr>
         </div>
     </div>
+    <div class="order container" id="order">
+        <!-- Swiper -->
+        <div>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <!-- <div class="swiper-slide">
+                        <div class="sw">
+                            <img src="./images/product.png" />
+                        </div>
+                    </div> -->
+                    <div class="swiper-slide">
+                        <div class="sw">
+                            <img src="./images/sw-banner1.jpg" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="sw">
+                            <img src="./images/sw-banner2.jpg" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="sw">
+                            <img src="./images/sw-banner3.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- <div class="swiper-slide">
+                        <img src="./images/product.png" />
+                    </div> -->
+                    <div class="swiper-slide">
+                        <img src="./images/sw-banner1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/sw-banner2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/sw-banner3.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-div">
+            <h3>OnycoFix® Foot and Nail Spray</h3>
 
+            <div class="radio">
+                <div class="radio-div">
+                    <input type="radio" id="dewey" name="drone" value="dewey" />
+                    <label for="dewey">
+                        <p>1 piece</p>
+                    </label>
+                </div>
+                <p> 30 euros</p>
+
+            </div>
+
+            <div class="radio">
+                <div class="radio-div">
+                    <input type="radio" id="dewey" name="drone" value="dewey" />
+                    <label for="dewey">
+                        <p>2 pieces (25 euros each)</p>
+                    </label>
+                </div>
+
+                <p> 50 euros</p>
+
+            </div>
+
+            <div class="radio">
+                <div class="radio-div">
+                    <input type="radio" id="dewey" name="drone" value="dewey" />
+                    <label for="dewey">
+                        <p>3 pieces (20 euros each)</p>
+                    </label>
+                </div> 
+                <p> 60 euros</p>
+
+            </div>
+
+            <p class="free">Free shipping over 50 euros </p>
+            <button>Order Now</button>
+            <img src="./images/payment-methods.jpg" alt="payment-methods">
+        </div>
+
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+    </script>
     <script src="./js/cookie.js"></script>
     <script src="./js/index.js"></script>
     <script src='/cdn/js/fa_events.js'></script>

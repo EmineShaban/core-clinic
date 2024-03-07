@@ -640,3 +640,44 @@ h4 {
 .comm p{
   margin: 0;
 }
+
+
+/* order */
+
+
+.order{
+  display: grid;
+  grid-template-columns: 700px 1fr;
+  gap: 50px;
+}
+
+.sw{
+  /* width: 70%; */
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+
+
+/* label{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+
+.radio{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.radio-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.free{
+  text-align: center;
+  border: 1px dashed #005280;
+}
