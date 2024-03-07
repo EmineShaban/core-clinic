@@ -616,3 +616,27 @@ h4 {
   margin: 0;
   padding: 25px 0;
 }
+
+
+
+/* commentrs */
+.comm-flex{
+  display: flex;
+  flex-direction: row;
+}
+.ava{
+  width: 100px;
+}
+.comm-content p:nth-child(1){
+  font-size: 20px;
+  margin: 0;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.comm-content{
+  margin: auto 0;
+}
+.comm p{
+  margin: 0;
+}
