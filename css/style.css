@@ -1,7 +1,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+.mobile1{
+  display: none;
+}
 img {
   width: 100%;
 }
@@ -73,6 +75,7 @@ img {
 .container {
   width: 60%;
   margin: auto;
+
 }
 
 /* product */
@@ -113,7 +116,7 @@ h2 {
 /* risks */
 
 .risks {
-  margin: 50px 0;
+  margin: 50px auto;
 }
 .blue {
   color: #015081;
@@ -1020,7 +1023,7 @@ footer p.disclaimer {
     width: 72%;
     margin: auto;
     position: relative;
-    transform: none; 
+    transform: none;
     top: 0;
     left: 0;
     padding: 20px;
@@ -1030,105 +1033,220 @@ footer p.disclaimer {
     text-align: center;
   }
 
+  .desktop {
+    display: none;
+  }
 
-.desktop{
+  .banner div p {
+    margin-bottom: 30px;
+  }
+  .banner div {
+    font-size: 14px;
+  }
+
+  .banner div a {
+    font-size: 16px;
+  }
+
+  .review-width {
+    width: 70%;
+  }
+  .content {
+    width: 90%;
+  }
+  .faq h2 {
+    margin-bottom: 0;
+  }
+  footer p.disclaimer {
+    width: 90%;
+  }
+
+  .product {
+    display: block;
+  }
+  .first-header:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 120px;
+    display: block;
+    margin: 10px auto;
+  }
+  .img {
+    width: 40%;
+    margin: auto;
+  }
+  .blue {
+    color: #015081;
+    font-weight: 900;
+    font-size: 22px;
+  }
+  .banner div p {
+    margin-bottom: 20px;
+  }
+  .banner div p span {
+    font-size: 22px;
+  }
+
+  .name {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+  .comm-content p:nth-child(1) {
+    font-size: 18px;
+  }
+  .img-ingr {
+    width: 150px;
+  }
+
+  #european .img-ingr2 {
+    width: 250px;
+    margin-left: -40px;
+  }
+  #echinacea p {
+    margin-left: -60px;
+  }
+
+  #echinacea .img-ingr2 {
+    width: 200px;
+  }
+
+  #tea {
+    margin-top: -80px;
+  }
+  .review-img {
+    width: 120px;
+    margin: auto;
+    margin-bottom: -30px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .menu li a {
+    font-size: 12px;
+  }
+  .menu li {
+    margin: auto;
+    margin-left: 5px;
+  }
+  h1 { 
+    font-size: 27px;
+    text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+
+}
+p{
+  font-size: 14px;
+  line-height: 1.2;
+}
+.blue { 
+  font-size: 18px;
+}
+.risk-factors h2{
+  margin: 20px auto;
+}
+.risk-grid { 
+  gap: 5px;
+}
+.desktop1{
   display: none;
 }
-
-.banner div p {
-  margin-bottom: 30px;
+.mobile1{
+  display: block;
 }
-.banner div {
+.mob{
+  margin: 25px auto;
+}
+.banner2 div {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  font-size: 12px !important;
+}
+.banner2 div p:nth-child(1) {
+  font-size: 20px;
+}
+.banner2{
+  width: 100%;
+}
+.bullets li p {
+  margin: 0;
   font-size: 14px;
 }
+.bullets li img {
+  width: 90px;
 
-.banner div a {
-  font-size: 16px;
+}
+.bullets {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+.banner3 p { 
+  font-size: 12px;
+}
+.banner3 p span { 
+  font-size: 18px;
+}
+.banner4 p span {
+  font-size: 18px;
+}
+
+.banner4 p {
+  font-size: 12px;
 }
 
 .review-width {
-  width: 70%; 
-}
-.content { 
   width: 90%;
 }
-.faq h2{
-  margin-bottom: 0;
+
+.content {
+  font-size: 12px;
+}
+.q { 
+  font-size: 16px;
+  margin: 0;
+}
+.order-content p { 
+  font-size: 12px;
+  padding: 10px 7px;
+}
+.order-bullets{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.order-bullets {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer div.links {
+  text-align: center;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+}
+footer a {
+  margin: 5px;
+  font-size: 12px;
+}
+.risk-content img {
+  width: 100px;
 }
 footer p.disclaimer {
-  width: 90%;
+  width: 90%; 
+  font-size: 10px;
 }
-
-.product {
-display: block;
+.faq-div{
+  width: 80%;
 }
-.first-header:nth-child(2) {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.logo {
-  width: 120px;
-  display: block;
-  margin: 10px auto;
-}
-.img {
-  width: 40%;
-  margin: auto;
-}
-.blue {
-  color: #015081;
-  font-weight: 900;
-  font-size: 22px;
-}
-.banner div p {
-  margin-bottom: 20px;
-}
-.banner div p span {
-  font-size: 22px;
-}
-
-.name {
-  text-align: center;
-  padding-top: 25px;
-  font-size: 24px;
-}
-.comm-content p:nth-child(1) {
-  font-size: 18px;
-}
-.img-ingr {
-  width: 150px;
-}
-
-#european .img-ingr2 {
-  width: 250px;
-  margin-left: -40px;
-}
-#echinacea p {
-  margin-left: -60px;
-}
-
-#echinacea .img-ingr2 {
-  width: 200px;
-}
-
-#tea { 
-  margin-top: -80px;
-}
-.review-img {
-  width: 120px;
-  margin: auto;
-  margin-bottom: -30px;
-}
-
-
-
-}
-
-
-
-@media screen and (max-width: 414px) {
-
-
-
 }
