@@ -417,10 +417,12 @@ h4 {
 /* unique */
 .unique {
   margin-left: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .unique li {
   list-style-type: disc;
-  margin: 10px auto;
+  margin: 5px 0;
 }
 
 /* banner4 */
@@ -778,7 +780,7 @@ form{
   flex-direction: column;
   margin: 20px 0;
 }   
-form input{
+form input, select{
   margin: 5px 0;
   padding: 5px;
 }
